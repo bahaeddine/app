@@ -1,0 +1,951 @@
+  
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>purcell/rails-runit · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <link rel="logo" type="image/svg" href="http://github-media-downloads.s3.amazonaws.com/github-logo.svg" />
+    <link rel="xhr-socket" href="/_sockets" />
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="zxAjHzTS7GIQQYJvIMZq42FJOCy6TXsNCYc5YGjaI+Q=" name="csrf-token" />
+
+    <link href="https://a248.e.akamai.net/assets.github.com/assets/github-a3a6f11f933fa375d623670fb32ec69840f30d25.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://a248.e.akamai.net/assets.github.com/assets/github2-4611e3a2373d1567aabe18f4d4d24f5193170052.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+
+      <script src="https://a248.e.akamai.net/assets.github.com/assets/frameworks-92d138f450f2960501e28397a2f63b0f100590f0.js" type="text/javascript"></script>
+      <script src="https://a248.e.akamai.net/assets.github.com/assets/github-0fbabf5c6aaee3961ccdb400f2c5b1bf77e4a939.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="5f72c1cdb7af836491fc78b29b612df3">
+
+        <link data-pjax-transient rel='permalink' href='/purcell/rails-runit/tree/8d611497559ae2806fce3139375fb85b9b14c987'>
+    <meta property="og:title" content="rails-runit"/>
+    <meta property="og:type" content="githubog:gitrepository"/>
+    <meta property="og:url" content="https://github.com/purcell/rails-runit"/>
+    <meta property="og:image" content="https://secure.gravatar.com/avatar/04f3babefa4ba85e7904b40e6846e217?s=420&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"/>
+    <meta property="og:site_name" content="GitHub"/>
+    <meta property="og:description" content="rails-runit - Run rails applications reliably as runit services"/>
+    <meta property="twitter:card" content="summary"/>
+    <meta property="twitter:site" content="@GitHub">
+    <meta property="twitter:title" content="purcell/rails-runit"/>
+
+    <meta name="description" content="rails-runit - Run rails applications reliably as runit services" />
+
+  <link href="https://github.com/purcell/rails-runit/commits/master.atom" rel="alternate" title="Recent Commits to rails-runit:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out   vis-public env-production  ">
+    <div id="wrapper">
+
+      
+
+      
+      
+      
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+      <a class="header-logo-wordmark" href="https://github.com/">Github</a>
+
+    <div class="header-actions">
+        <a class="button primary" href="https://github.com/signup">Sign up for free</a>
+      <a class="button" href="https://github.com/login?return_to=%2Fpurcell%2Frails-runit">Sign in</a>
+    </div>
+
+      <ul class="top-nav">
+          <li class="explore"><a href="https://github.com/explore">Explore GitHub</a></li>
+        <li class="search"><a href="https://github.com/search">Search</a></li>
+        <li class="features"><a href="https://github.com/features">Features</a></li>
+          <li class="blog"><a href="https://github.com/blog">Blog</a></li>
+      </ul>
+
+  </div>
+</div>
+
+
+      
+
+      
+
+
+            <div class="site hfeed" itemscope itemtype="http://schema.org/WebPage">
+      <div class="hentry">
+        
+        <div class="pagehead repohead instapaper_ignore readability-menu ">
+          <div class="container">
+            <div class="title-actions-bar">
+              
+
+<ul class="pagehead-actions">
+
+
+
+    <li>
+      <a href="/login?return_to=%2Fpurcell%2Frails-runit"
+        class="minibutton js-toggler-target star-button entice tooltipped upwards"
+        title="You must be signed in to use this feature" rel="nofollow">
+        <span class="mini-icon mini-icon-star"></span>Star
+      </a>
+      <a class="social-count js-social-count" href="/purcell/rails-runit/stargazers">
+        34
+      </a>
+    </li>
+    <li>
+      <a href="/login?return_to=%2Fpurcell%2Frails-runit"
+        class="minibutton js-toggler-target fork-button entice tooltipped upwards"
+        title="You must be signed in to fork a repository" rel="nofollow">
+        <span class="mini-icon mini-icon-fork"></span>Fork
+      </a>
+      <a href="/purcell/rails-runit/network" class="social-count">
+        4
+      </a>
+    </li>
+</ul>
+
+              <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+                <span class="repo-label"><span>public</span></span>
+                <span class="mega-icon mega-icon-public-repo"></span>
+                <span class="author vcard">
+                  <a href="/purcell" class="url fn" itemprop="url" rel="author">
+                  <span itemprop="title">purcell</span>
+                  </a></span> /
+                <strong><a href="/purcell/rails-runit" class="js-current-repository">rails-runit</a></strong>
+              </h1>
+            </div>
+
+            
+  <ul class="tabs">
+    <li class="pulse-nav"><a href="/purcell/rails-runit/pulse" class="js-selected-navigation-item " data-selected-links="pulse /purcell/rails-runit/pulse" rel="nofollow"><span class="mini-icon mini-icon-pulse"></span></a></li>
+    <li><a href="/purcell/rails-runit" class="js-selected-navigation-item selected" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /purcell/rails-runit">Code</a></li>
+    <li><a href="/purcell/rails-runit/network" class="js-selected-navigation-item " data-selected-links="repo_network /purcell/rails-runit/network">Network</a></li>
+    <li><a href="/purcell/rails-runit/pulls" class="js-selected-navigation-item " data-selected-links="repo_pulls /purcell/rails-runit/pulls">Pull Requests <span class='counter'>0</span></a></li>
+
+      <li><a href="/purcell/rails-runit/issues" class="js-selected-navigation-item " data-selected-links="repo_issues /purcell/rails-runit/issues">Issues <span class='counter'>0</span></a></li>
+
+
+
+    <li><a href="/purcell/rails-runit/graphs" class="js-selected-navigation-item " data-selected-links="repo_graphs repo_contributors /purcell/rails-runit/graphs">Graphs</a></li>
+
+
+  </ul>
+  
+  <div id="repo_details" class="metabox clearfix
+       ">
+      <div id="repo_details_loader" class="context-loader" style="display:none">Sending Request&hellip;</div>
+
+        <div class="repo-desc-homepage">
+          
+    <div class="repository-lang-stats">
+      <div class="repository-lang-stats-graph">
+      <span class="language-color" style="width:57.5%; background-color:#5861ce;" itemprop="keywords">Shell</span><span class="language-color" style="width:33.4%; background-color:#0298c3;" itemprop="keywords">Perl</span><span class="language-color" style="width:7.4%; background-color:#f15501;" itemprop="keywords">JavaScript</span><span class="language-color" style="width:1.7%; background-color:#701516;" itemprop="keywords">Ruby</span>
+      </div>
+      <ol class="list-tip">
+        <li>
+            <a href="/languages/Shell">
+              <span class="color-block language-color" style="background-color:#5861ce;"></span>
+              <span class="lang">Shell</span>
+              <span class="percent">57.5%</span>
+            </a>
+        </li>
+        <li>
+            <a href="/languages/Perl">
+              <span class="color-block language-color" style="background-color:#0298c3;"></span>
+              <span class="lang">Perl</span>
+              <span class="percent">33.4%</span>
+            </a>
+        </li>
+        <li>
+            <a href="/languages/JavaScript">
+              <span class="color-block language-color" style="background-color:#f15501;"></span>
+              <span class="lang">JavaScript</span>
+              <span class="percent">7.4%</span>
+            </a>
+        </li>
+        <li>
+            <a href="/languages/Ruby">
+              <span class="color-block language-color" style="background-color:#701516;"></span>
+              <span class="lang">Ruby</span>
+              <span class="percent">1.7%</span>
+            </a>
+        </li>
+      </ol>
+    </div>
+
+<div id="repository_description" class="repository-description">
+    <p>Run rails applications reliably as runit services
+      <span id="read_more" style="display:none">&mdash; <a href="#readme">Read more</a></span>
+    </p>
+</div>
+
+
+<div class="repository-homepage" id="repository_homepage">
+  <p><a href="http://www.sanityinc.com/" rel="nofollow">http://www.sanityinc.com/</a></p>
+</div>
+
+
+        </div>
+
+      <div class="edit-repo-desc-homepage" style="display:none">
+        <form accept-charset="UTF-8" action="/purcell/rails-runit/settings/update_meta" id="js-update-repo-meta-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="_method" type="hidden" value="put" /><input name="authenticity_token" type="hidden" value="zxAjHzTS7GIQQYJvIMZq42FJOCy6TXsNCYc5YGjaI+Q=" /></div>
+          <p class="error" style="display:none">Sorry, but there was a problem saving your changes.</p>
+          <input type="text" id="repository-description-field" class="description-field" name="repo_description" value="Run rails applications reliably as runit services" placeholder="Add a description to this repository">
+          <input type="text" id="repository-homepage-field" class="homepage-field" name="repo_homepage" value="http://www.sanityinc.com/" placeholder="Add a website to this repository">
+
+          <div class="edit-repo-actions">
+            <button type="submit" class="button save-button">Save changes</button>
+            <span class="cancel">
+              <a href="#" class="button danger">Cancel</a>
+            </span>
+          </div>
+</form>      </div>
+
+      
+<div class="url-box js-url-box">
+  <ul class="native-clones">
+      <li><a href="/purcell/rails-runit/archive/master.zip" class="button minibutton " icon_class="mini-icon-download" rel="nofollow" title="Download this repository as a zip file"><span class="mini-icon mini-icon-download"></span>ZIP</a>
+  </ul>
+
+  <div class="clone-urls js-clone-urls ">
+    <span class="http_clone_url clone-url-button js-clone-url-button selected"><a href="https://github.com/purcell/rails-runit.git" class="js-git-protocol-selector" data-permission="Read-Only" data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">HTTP</a></span>
+<span class="public_clone_url clone-url-button js-clone-url-button"><a href="git@github.com:purcell/rails-runit.git" class="js-git-protocol-selector" data-permission="Read-Only" data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone">SSH</a></span>
+<span class="public_clone_url clone-url-button js-clone-url-button"><a href="git://github.com/purcell/rails-runit.git" class="js-git-protocol-selector" data-permission="Read-Only" data-url="/users/set_protocol?protocol_selector=gitweb&amp;protocol_type=clone">Git Read-Only</a></span>
+    <span class="clone-url">
+      <input type="text" readonly spellcheck="false" class="url-field js-url-field" value="https://github.com/purcell/rails-runit.git" >
+    </span>
+    <span class="clone-url-button">
+      <span class="js-zeroclipboard url-box-clippy zeroclipboard-button" data-clipboard-text="https://github.com/purcell/rails-runit.git" data-copied-hint="copied!" title="copy to clipboard"><span class="mini-icon mini-icon-clipboard"></span></span>
+    </span>
+  </div>
+  <p class="url-description"><span class="bold js-clone-url-permission">Read-Only</span> access</p>
+</div>
+
+        </div>
+
+<div class="tabnav">
+
+  <span class="tabnav-right">
+    <ul class="tabnav-tabs">
+          <li><a href="/purcell/rails-runit/tags" class="js-selected-navigation-item tabnav-tab" data-selected-links="repo_tags /purcell/rails-runit/tags">Tags <span class="counter blank">0</span></a></li>
+    </ul>
+    
+  </span>
+
+  <div class="tabnav-widget scope">
+
+
+    <div class="select-menu js-menu-container js-select-menu js-branch-menu">
+      <a class="minibutton select-menu-button js-menu-target" data-hotkey="w" data-ref="master">
+        <span class="mini-icon mini-icon-branch"></span>
+        <i>branch:</i>
+        <span class="js-select-button">master</span>
+      </a>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+
+        <div class="select-menu-modal">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Switch branches/tags</span>
+            <span class="mini-icon mini-icon-remove-close js-menu-close"></span>
+          </div> <!-- /.select-menu-header -->
+
+          <div class="select-menu-filters">
+            <div class="select-menu-text-filter">
+              <input type="text" id="commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+            </div>
+            <div class="select-menu-tabs">
+              <ul>
+                <li class="select-menu-tab">
+                  <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+                </li>
+                <li class="select-menu-tab">
+                  <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+                </li>
+              </ul>
+            </div><!-- /.select-menu-tabs -->
+          </div><!-- /.select-menu-filters -->
+
+          <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket css-truncate" data-tab-filter="branches">
+
+            <div data-filterable-for="commitish-filter-field" data-filterable-type="substring">
+
+                <div class="select-menu-item js-navigation-item selected">
+                  <span class="select-menu-item-icon mini-icon mini-icon-confirm"></span>
+                  <a href="/purcell/rails-runit/tree/master" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="master" rel="nofollow" title="master">master</a>
+                </div> <!-- /.select-menu-item -->
+            </div>
+
+              <div class="select-menu-no-results">Nothing to show</div>
+          </div> <!-- /.select-menu-list -->
+
+
+          <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket css-truncate" data-tab-filter="tags">
+            <div data-filterable-for="commitish-filter-field" data-filterable-type="substring">
+
+            </div>
+
+            <div class="select-menu-no-results">Nothing to show</div>
+
+          </div> <!-- /.select-menu-list -->
+
+        </div> <!-- /.select-menu-modal -->
+      </div> <!-- /.select-menu-modal-holder -->
+    </div> <!-- /.select-menu -->
+
+  </div> <!-- /.scope -->
+
+  <ul class="tabnav-tabs">
+    <li><a href="/purcell/rails-runit" class="selected js-selected-navigation-item tabnav-tab" data-selected-links="repo_source /purcell/rails-runit">Files</a></li>
+    <li><a href="/purcell/rails-runit/commits/master" class="js-selected-navigation-item tabnav-tab" data-selected-links="repo_commits /purcell/rails-runit/commits/master">Commits</a></li>
+    <li><a href="/purcell/rails-runit/branches" class="js-selected-navigation-item tabnav-tab" data-selected-links="repo_branches /purcell/rails-runit/branches" rel="nofollow">Branches <span class="counter ">1</span></a></li>
+  </ul>
+
+</div>
+
+  
+  
+  
+
+
+            
+          </div>
+        </div><!-- /.repohead -->
+
+        <div id="js-repo-pjax-container" class="container context-loader-container" data-pjax-container>
+          
+
+
+<!-- tree commit key: views10/v8/tree:v21:0dfdf5c241f7e57882b1c5b09f20c740 -->
+
+  <div id="slider">
+      <div class="frame-meta">
+          
+
+          <p class="history-link js-history-link-replace">
+              <a href="/purcell/rails-runit/commits/master">
+                <span class="mini-icon mini-icon-history tooltipped" title="Browse commits for this branch"></span>
+                84 commits
+</a>          </p>
+
+        <div class="breadcrumb">
+          <span class='bold'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/purcell/rails-runit" class="js-slide-to" data-branch="master" data-direction="back" itemscope="url"><span itemprop="title">rails-runit</span></a></span></span><span class="separator"> / </span><form action="/login?return_to=%2Fpurcell%2Frails-runit" class="js-new-blob-form tooltipped rightwards new-file-link" method="post" title="Sign in to make or propose changes"><span class="js-new-blob-submit mini-icon mini-icon-new-file"></span></form>
+        </div>
+
+        <a href="/purcell/rails-runit/find/master"
+           class="js-slide-to" data-hotkey="t" style="display:none">Show File Finder</a>
+
+      </div><!-- ./.frame-meta -->
+
+      
+
+  <div class="frames">
+    <div class="frame" data-permalink-url="/purcell/rails-runit/tree/8d611497559ae2806fce3139375fb85b9b14c987" data-title="purcell/rails-runit · GitHub" data-type="tree">
+
+      <div class="bubble tree-browser-wrapper">
+
+      <table class="tree-browser css-truncate" cellpadding="0" cellspacing="0">
+        <thead>
+            
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/purcell/rails-runit/commit/8d611497559ae2806fce3139375fb85b9b14c987" class="message">Hide nginx version</a>
+        
+    </p>
+    <div class="commit-meta">
+      <span class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="8d611497559ae2806fce3139375fb85b9b14c987" data-copied-hint="copied!" title="Copy SHA"><span class="mini-icon mini-icon-clipboard"></span></span>
+      <a href="/purcell/rails-runit/commit/8d611497559ae2806fce3139375fb85b9b14c987" class="sha-block" data-pjax>latest commit <span class="sha">8d61149755</span></a>
+
+      <div class="authorship">
+        <img class="gravatar" height="20" src="https://secure.gravatar.com/avatar/04f3babefa4ba85e7904b40e6846e217?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="20" />
+        <span class="author-name"><a href="/purcell" data-skip-pjax="true" rel="author">purcell</a></span>
+        authored <time class="js-relative-date updated" datetime="2013-04-25T09:01:18-07:00" title="2013-04-25 09:01:18">April 25, 2013</time>
+
+      </div>
+    </div>
+  </div>
+
+        </thead>
+
+        
+
+<tbody class="tree-entries js-deferred-content"
+    data-url="/purcell/rails-runit/tree-commits/master">
+
+
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-directory"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/tree/master/bin" class="js-directory-link js-slide-to css-truncate-target" id="c1111bd512b29e821b120b86446026b8-197a56220cad1446ccbbb5c62e61d9ae7f6414f2" title="bin">bin</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2011-03-21T04:12:26-07:00" title="2011-03-21 04:12:26">March 21, 2011</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/e7b31af8923743d07f729030436baab952d1f766" class="message">Extract common code into 'bootstrap', and allow a bootstrap.user for …</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-directory"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/tree/master/service" class="js-directory-link js-slide-to css-truncate-target" id="aaabf0d39951f3e6c3e8a7911df524c2-a94f29a3cbca34c73ba7e45508d99a53b8900a1e" title="service">service</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2007-12-16T02:29:44-08:00" title="2007-12-16 02:29:44">December 16, 2007</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/07476cc6754740e9a52f88c73a55bdb0663785f9" class="message">Initial revision</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/.gitignore" class="js-directory-link js-slide-to css-truncate-target" id="a084b794bc0759e7a6b77810e01874f2-b05f5c12202922cface267ec9c7393cd5b91ccd0" title=".gitignore">.gitignore</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2007-12-16T02:29:44-08:00" title="2007-12-16 02:29:44">December 16, 2007</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/07476cc6754740e9a52f88c73a55bdb0663785f9" class="message">Initial revision</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/README" class="js-directory-link js-slide-to css-truncate-target" id="c47c7c7383225ab55ff591cb59c41e6b-6ac3886ff0530d0a06bebed9c0f6e471a0b84bf9" title="README">README</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2008-10-21T08:00:17-07:00" title="2008-10-21 08:00:17">October 21, 2008</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/0a0574882c3c7dc1020f215bf3e65a79ce413c3b" class="message">README corrections</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/add-ferret-server" class="js-directory-link js-slide-to css-truncate-target" id="776f938375558b81efc8e036be4f3227-1673326e0e20a1188a4b54efebba18fe83a921ce" title="add-ferret-server">add-ferret-server</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-04-09T06:34:21-07:00" title="2012-04-09 06:34:21">April 09, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/d8c41edc9ba2937fc870ecae0794e61b517e4736" class="message">Explicitly use bash for all 'run' scripts, to prevent issues with rvm…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/add-haproxy" class="js-directory-link js-slide-to css-truncate-target" id="836d24998e0b453497b071a9c1727fb9-f44c7d5f3015844efc600a98723ecaff353836f7" title="add-haproxy">add-haproxy</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-04-09T06:34:21-07:00" title="2012-04-09 06:34:21">April 09, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/d8c41edc9ba2937fc870ecae0794e61b517e4736" class="message">Explicitly use bash for all 'run' scripts, to prevent issues with rvm…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/add-kirk" class="js-directory-link js-slide-to css-truncate-target" id="e2159fc8d09bee48a32014c2d51b80fd-ccd80f814c059d810346042fef018173e0e62947" title="add-kirk">add-kirk</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-04-09T06:34:21-07:00" title="2012-04-09 06:34:21">April 09, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/d8c41edc9ba2937fc870ecae0794e61b517e4736" class="message">Explicitly use bash for all 'run' scripts, to prevent issues with rvm…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/add-maintenance" class="js-directory-link js-slide-to css-truncate-target" id="55e2bda266b99c3bdfc76b780f6c9e7c-a6dd87d7922cdb59a4bdf83d24a3438256f8bbae" title="add-maintenance">add-maintenance</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-04-09T06:34:21-07:00" title="2012-04-09 06:34:21">April 09, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/d8c41edc9ba2937fc870ecae0794e61b517e4736" class="message">Explicitly use bash for all 'run' scripts, to prevent issues with rvm…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/add-memcached" class="js-directory-link js-slide-to css-truncate-target" id="dc0c55573aab21451e9563ac0cb42c1a-ea805d2e48cb0eace85c69018cafb7494c6c234f" title="add-memcached">add-memcached</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-04-09T06:34:21-07:00" title="2012-04-09 06:34:21">April 09, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/d8c41edc9ba2937fc870ecae0794e61b517e4736" class="message">Explicitly use bash for all 'run' scripts, to prevent issues with rvm…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/add-mizuno" class="js-directory-link js-slide-to css-truncate-target" id="f945fe8814ac62183219bb94d2ab8b47-bf57b965b9b8f396a9b317d14f618add9675bf12" title="add-mizuno">add-mizuno</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2013-02-11T07:30:58-08:00" title="2013-02-11 07:30:58">February 11, 2013</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/1899a8de121648872df61b4d163fc7b3cf43cf9e" class="message">Add mizuno</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/add-mongrel" class="js-directory-link js-slide-to css-truncate-target" id="5c595af4f33b0faaa2d6b95b44cc61aa-47575e2b3b5efd11fec8b8c8ca1b1221a178d110" title="add-mongrel">add-mongrel</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-04-09T06:34:21-07:00" title="2012-04-09 06:34:21">April 09, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/d8c41edc9ba2937fc870ecae0794e61b517e4736" class="message">Explicitly use bash for all 'run' scripts, to prevent issues with rvm…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/add-nginx" class="js-directory-link js-slide-to css-truncate-target" id="0db3eafecb1bc023ac5fdc52c056e212-32e629bc0d0b5ad9a2a773f879c46ba9f62a4e88" title="add-nginx">add-nginx</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-04-09T06:34:21-07:00" title="2012-04-09 06:34:21">April 09, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/d8c41edc9ba2937fc870ecae0794e61b517e4736" class="message">Explicitly use bash for all 'run' scripts, to prevent issues with rvm…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/add-thin" class="js-directory-link js-slide-to css-truncate-target" id="2f7b285c29936483b4646e8b98aaf1d1-6544050cefb9794e5c8fc3f724ec16eb739ce2cd" title="add-thin">add-thin</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-04-09T06:34:21-07:00" title="2012-04-09 06:34:21">April 09, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/d8c41edc9ba2937fc870ecae0794e61b517e4736" class="message">Explicitly use bash for all 'run' scripts, to prevent issues with rvm…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/add-thinking-sphinx" class="js-directory-link js-slide-to css-truncate-target" id="5a37f928b6981b4543efdff736b4a8a1-a14fa7fbae3fe8872d661a9742c37fa93607289e" title="add-thinking-sphinx">add-thinking-sphinx</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-04-09T06:34:21-07:00" title="2012-04-09 06:34:21">April 09, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/d8c41edc9ba2937fc870ecae0794e61b517e4736" class="message">Explicitly use bash for all 'run' scripts, to prevent issues with rvm…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/add-unicorn" class="js-directory-link js-slide-to css-truncate-target" id="b8631cea59ed402d865a6ccfeff77740-22c9a19f5f52ee590be2fb8fd0e386b85e4051d5" title="add-unicorn">add-unicorn</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-04-09T06:34:21-07:00" title="2012-04-09 06:34:21">April 09, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/d8c41edc9ba2937fc870ecae0794e61b517e4736" class="message">Explicitly use bash for all 'run' scripts, to prevent issues with rvm…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/add-varnish" class="js-directory-link js-slide-to css-truncate-target" id="2226901b15a3a81fd9668456594af51a-61f67dc07ecbda31daab2f417ee6bd687894f644" title="add-varnish">add-varnish</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-04-09T06:34:21-07:00" title="2012-04-09 06:34:21">April 09, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/d8c41edc9ba2937fc870ecae0794e61b517e4736" class="message">Explicitly use bash for all 'run' scripts, to prevent issues with rvm…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/bootstrap" class="js-directory-link js-slide-to css-truncate-target" id="ca4c50b905dc21ea17a10549a6f5944f-23d4230d6b19b9b1da7d5d804d0b42b7c8921e8a" title="bootstrap">bootstrap</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-11-22T06:15:43-08:00" title="2012-11-22 06:15:43">November 22, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/8156b879ba63113f2ef7b0cdbec2b00461b10e73" class="message">Fix conditional syntax in bootstrap file</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/check-port" class="js-directory-link js-slide-to css-truncate-target" id="47955ff0a3949daf7371f7e16a86a858-4b6d7869556d88b7e25671ef84ceba749008f991" title="check-port">check-port</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-04-09T06:34:21-07:00" title="2012-04-09 06:34:21">April 09, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/d8c41edc9ba2937fc870ecae0794e61b517e4736" class="message">Explicitly use bash for all 'run' scripts, to prevent issues with rvm…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/ferret-server-run" class="js-directory-link js-slide-to css-truncate-target" id="9b7d74d2a70ad94ad867c6baeed50ffc-1fffe585d8593843546dc3a297ec9a47685b1a62" title="ferret-server-run">ferret-server-run</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-11-29T02:57:22-08:00" title="2012-11-29 02:57:22">November 29, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/4275cc076d2bbe83ab3cc4e3bea04832c9198d07" class="message">Always redirect "run" script stderr to stdout so it is available to s…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/haproxy-run" class="js-directory-link js-slide-to css-truncate-target" id="d1462ecfe22151ec4a337f15907db155-b8481d047833f327f05282f700fe8a28f3ff525d" title="haproxy-run">haproxy-run</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-11-29T02:57:22-08:00" title="2012-11-29 02:57:22">November 29, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/4275cc076d2bbe83ab3cc4e3bea04832c9198d07" class="message">Always redirect "run" script stderr to stdout so it is available to s…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/kirk-run" class="js-directory-link js-slide-to css-truncate-target" id="0a951a61daba9bf14097c16d13f16e63-ccd6d50c32b93c328ff0629c8d0968f22376d3fd" title="kirk-run">kirk-run</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-11-29T02:57:22-08:00" title="2012-11-29 02:57:22">November 29, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/4275cc076d2bbe83ab3cc4e3bea04832c9198d07" class="message">Always redirect "run" script stderr to stdout so it is available to s…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/maintenance-run" class="js-directory-link js-slide-to css-truncate-target" id="a5ca60491c2e25588adcb6d92f786317-a1bef0d824eda5edfe6db211a4ebad6fba79753d" title="maintenance-run">maintenance-run</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2013-04-03T12:47:40-07:00" title="2013-04-03 12:47:40">April 03, 2013</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/8f8aea735f9daf39d62863e39234ef25424b9c4c" class="message">Include path to maintenance_server script</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/memcached-run" class="js-directory-link js-slide-to css-truncate-target" id="bf7cf59fb9fb26213e5e6dde85ca472b-a61b4504e12ad10e87d2970c577c4384d2479b40" title="memcached-run">memcached-run</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-11-29T02:57:22-08:00" title="2012-11-29 02:57:22">November 29, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/4275cc076d2bbe83ab3cc4e3bea04832c9198d07" class="message">Always redirect "run" script stderr to stdout so it is available to s…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/mizuno-run" class="js-directory-link js-slide-to css-truncate-target" id="19448f53fd12c5bbcf1b3a350509f131-ca29466417cecc73984ff3cf23eb5915126b82c1" title="mizuno-run">mizuno-run</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2013-02-11T07:30:58-08:00" title="2013-02-11 07:30:58">February 11, 2013</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/1899a8de121648872df61b4d163fc7b3cf43cf9e" class="message">Add mizuno</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/mongrel-run" class="js-directory-link js-slide-to css-truncate-target" id="ce213aa2d0c38fb6c87795516fd0f553-842f0f3fce4b7639c7d8539bd3cc8e7965890aba" title="mongrel-run">mongrel-run</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2013-02-11T07:29:44-08:00" title="2013-02-11 07:29:44">February 11, 2013</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/1bdf89e7f7d4ceab76434c84659d376a20d84ede" class="message">nginx / mongrel: explicitly change dir to APP_DIR, for rbenv compatib…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/nginx-run" class="js-directory-link js-slide-to css-truncate-target" id="81c7772b2b963f6ec277eabc45a8a460-91837921164b1b66dffcfb3e0814ca5d065a3bc8" title="nginx-run">nginx-run</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2013-04-25T09:01:18-07:00" title="2013-04-25 09:01:18">April 25, 2013</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/8d611497559ae2806fce3139375fb85b9b14c987" class="message">Hide nginx version</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/readlink_canonical" class="js-directory-link js-slide-to css-truncate-target" id="90610a05f9d58f8c00d65c8f8e1b89c0-716667b3b2604344a4a50bd7744d7afcea5adc7f" title="readlink_canonical">readlink_canonical</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2008-09-11T11:41:40-07:00" title="2008-09-11 11:41:40">September 11, 2008</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/4cab5e3f4d6b8474cf9359fb862ff01aedaa1863" class="message">Not all readlinks provide a '-e' option, so work around this with a t…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/thin-run" class="js-directory-link js-slide-to css-truncate-target" id="e2dbca1e5f4c13aa5520a2d0559138ca-9b2a68a7c0b633d97741875eb3fb0d1b8ee56388" title="thin-run">thin-run</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2013-02-11T07:29:44-08:00" title="2013-02-11 07:29:44">February 11, 2013</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/1bdf89e7f7d4ceab76434c84659d376a20d84ede" class="message">nginx / mongrel: explicitly change dir to APP_DIR, for rbenv compatib…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/thinking-sphinx-run" class="js-directory-link js-slide-to css-truncate-target" id="8235fae99dfd787a84b7f22b54108bb9-93e91adc0b190d148dd7cf151a1fbd31160f9865" title="thinking-sphinx-run">thinking-sphinx-run</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-11-29T02:57:22-08:00" title="2012-11-29 02:57:22">November 29, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/4275cc076d2bbe83ab3cc4e3bea04832c9198d07" class="message">Always redirect "run" script stderr to stdout so it is available to s…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/unicorn-run" class="js-directory-link js-slide-to css-truncate-target" id="4c1037b30f5c33a3b793619df84529e5-b5914a47e566e48cc5e77296150ce595babc017d" title="unicorn-run">unicorn-run</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-12-09T10:47:47-08:00" title="2012-12-09 10:47:47">December 09, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/fc2a566e0e53430f8b72af12024f2860c02f6830" class="message">unicorn: set check_client_connection option, but also disable tcp_nopush</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+    <tr>
+      <td class="icon"><span class="mini-icon mini-icon-text-file"></span></td>
+      <td class="content"><a href="/purcell/rails-runit/blob/master/varnish-run" class="js-directory-link js-slide-to css-truncate-target" id="32e78cdbbd8679adb7d869e5d9e8f9a3-7dd55d9e9fa00dde1745622507c7308d3818bb39" title="varnish-run">varnish-run</a></td>
+      <td class="age"><time class="js-relative-date" datetime="2012-11-29T02:57:22-08:00" title="2012-11-29 02:57:22">November 29, 2012</time></td>
+
+      <td class="message">
+          <a href="/purcell/rails-runit/commit/4275cc076d2bbe83ab3cc4e3bea04832c9198d07" class="message">Always redirect "run" script stderr to stdout so it is available to s…</a>
+          [<a href="/purcell" rel="author">purcell</a>]
+
+      </td>
+    </tr>
+</tbody>
+
+      </table>
+      </div>
+
+        <div id="readme" class="clearfix announce instapaper_body ">
+          <span class="name"><span class="mini-icon mini-icon-readme"></span> README</span><div class="plain"><pre>Runit services for heavy-duty Rails hosting
+===========================================
+
+Here's a bunch of scripts for deploying a full production Rails app
+that runs under runit.
+
+This scheme is currently used to run several large production
+Rails apps, including <a href="http://www.looktothestars.org/">http://www.looktothestars.org/</a>, and it
+has workd very nicely for a couple of years now.  More reliable
+than system-wide init.d scripts, and fewer permission headaches.
+
+
+How to use it
+=============
+
+Create an unprivileged user for your Rails app, then set up a
+system-wide Runit service to manage user-specific services for
+that user -- see the following page for details:
+
+  <a href="http://www.sanityinc.com/articles/init-scripts-considered-harmful">http://www.sanityinc.com/articles/init-scripts-considered-harmful</a>
+
+All further steps assume that you are working as the unprivileged user.
+
+Now, clone this project into the user's home directory:
+
+ cd
+ git clone git://github.com/purcell/rails-runit.git
+
+Symlink your rails app's root directory to this directory with the
+name 'app':
+
+ ln -s ~appuser/releases/current ~/rails-runit/app
+
+Now you can create some services:
+
+ cd ~/rails-runit
+ ./add-mongrel 4001
+ ./add-mongrel 4002
+ ./add-mongrel 4003
+ ./add-haproxy 4000
+ ./add-nginx 4020 4000
+
+This creates (potential) runit services under ~/rails-runit/service.
+Symlink them to ~/service, and runit will start them for you.
+
+Once started, you can set your system-wide web server to proxy requests
+for your Rails app to port 4000 (haproxy =&gt; mongrel * 3), or to port 4020
+(nginx =&gt; haproxy =&gt; mongrel * 3).
+
+Browse to port 3998 (= haproxy port - 2) to see the haproxy status
+page.
+
+You can then easily restart your app (e.g. as part of a capistrano
+deployment) like this:
+
+  sv restart ~/service/mongrel-*
+
+Further "add-*" and "*-run" scripts are provided for varnish and
+ferret_server.
+
+
+Status
+======
+
+The haproxy service assumes that the mongrels will be found on
+the 10 ports higher than itself.
+
+The use of the 'production' RAILS_ENV is hard-coded, so look out
+for that if you try it on your own machine.
+
+The entire scheme is subject to change -- see below.
+
+
+Future plans
+============
+
+I'd like to rewrite all this in ruby so we can have templates for the
+config files in ERB, and to make the port mapping a bit more flexible.
+The 'run' scripts would then look up their config templates under
+RAILS_ROOT/config first, and fall back to ~/rails-runit/ if necessary.
+
+It'd be nice to automatically generate monitrc fragments that could
+be included by a system-wide monit instance for the purposes of
+monitoring the app.
+</pre></div>
+        </div>
+    </div>
+  </div>
+  <br style="clear:both;">
+
+
+<br style="clear:both;">
+
+<div id="js-frame-loading-template" class="frame frame-loading large-loading-area" style="display:none;">
+  <img class="js-frame-loading-spinner" src="https://a248.e.akamai.net/assets.github.com/images/spinners/octocat-spinner-128.gif?1360648847" height="64" width="64">
+</div>
+
+
+  </div>
+
+        </div>
+      </div>
+      <div class="context-overlay"></div>
+    </div>
+
+      <div id="footer-push"></div><!-- hack for sticky footer -->
+    </div><!-- end of wrapper - hack for sticky footer -->
+
+      <!-- footer -->
+      <div id="footer">
+  <div class="container clearfix">
+
+      <dl class="footer_nav">
+        <dt>GitHub</dt>
+        <dd><a href="https://github.com/about">About us</a></dd>
+        <dd><a href="https://github.com/blog">Blog</a></dd>
+        <dd><a href="https://github.com/contact">Contact &amp; support</a></dd>
+        <dd><a href="http://enterprise.github.com/">GitHub Enterprise</a></dd>
+        <dd><a href="http://status.github.com/">Site status</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>Applications</dt>
+        <dd><a href="http://mac.github.com/">GitHub for Mac</a></dd>
+        <dd><a href="http://windows.github.com/">GitHub for Windows</a></dd>
+        <dd><a href="http://eclipse.github.com/">GitHub for Eclipse</a></dd>
+        <dd><a href="http://mobile.github.com/">GitHub mobile apps</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>Services</dt>
+        <dd><a href="http://get.gaug.es/">Gauges: Web analytics</a></dd>
+        <dd><a href="http://speakerdeck.com">Speaker Deck: Presentations</a></dd>
+        <dd><a href="https://gist.github.com">Gist: Code snippets</a></dd>
+        <dd><a href="http://jobs.github.com/">Job board</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>Documentation</dt>
+        <dd><a href="http://help.github.com/">GitHub Help</a></dd>
+        <dd><a href="http://developer.github.com/">Developer API</a></dd>
+        <dd><a href="http://github.github.com/github-flavored-markdown/">GitHub Flavored Markdown</a></dd>
+        <dd><a href="http://pages.github.com/">GitHub Pages</a></dd>
+      </dl>
+
+      <dl class="footer_nav">
+        <dt>More</dt>
+        <dd><a href="http://training.github.com/">Training</a></dd>
+        <dd><a href="https://github.com/edu">Students &amp; teachers</a></dd>
+        <dd><a href="http://shop.github.com">The Shop</a></dd>
+        <dd><a href="/plans">Plans &amp; pricing</a></dd>
+        <dd><a href="http://octodex.github.com/">The Octodex</a></dd>
+      </dl>
+
+      <hr class="footer-divider">
+
+
+    <p class="right">&copy; 2013 <span title="0.09107s from fe4.rs.github.com">GitHub</span>, Inc. All rights reserved.</p>
+    <a class="left" href="https://github.com/">
+      <span class="mega-icon mega-icon-invertocat"></span>
+    </a>
+    <ul id="legal">
+        <li><a href="https://github.com/site/terms">Terms of Service</a></li>
+        <li><a href="https://github.com/site/privacy">Privacy</a></li>
+        <li><a href="https://github.com/security">Security</a></li>
+    </ul>
+
+  </div><!-- /.container -->
+
+</div><!-- /.#footer -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+          <div class="suggester-container">
+              <div class="suggester fullscreen-suggester js-navigation-container" id="fullscreen_suggester"
+                 data-url="/purcell/rails-runit/suggestions/commit">
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" title="Exit Zen Mode">
+      <span class="mega-icon mega-icon-normalscreen"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      title="Switch themes">
+      <span class="mini-icon mini-icon-brightness"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="mini-icon mini-icon-exclamation"></span>
+      Something went wrong with that request. Please try again.
+      <a href="#" class="mini-icon mini-icon-remove-close ajax-error-dismiss"></a>
+    </div>
+
+    
+    
+    <span id='server_response_time' data-time='0.09157' data-host='fe4'></span>
+    
+  </body>
+</html>
+
