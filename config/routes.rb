@@ -1,13 +1,13 @@
 App::Application.routes.draw do
   get "pages/home"
-
   get "pages/contact"
+  get "pages/about"
 
   resources :microposts
   resources :users
 
 
-  # The priority is based upon order of creation:
+  # The priority is based upon order of creation:get "pages/about"
   # first created -> highest priority.
 
   # Sample of regular route:
